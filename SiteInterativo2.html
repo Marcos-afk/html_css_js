@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá</title>
+    <link href="/modelo/estilo2.css" rel="stylesheet"/>
+    <script src="/modelo/script2.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section id="corpo">
+        <div>
+            <p> Ano de nascimento: <input type="number" id="ano" name="ano" min="0"></p>
+            <p>Sexo :   <input type="radio" id="masc" name="sexo" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" id="fem" name="sexo">
+                        <label for="fem">Feminino</label>
+            
+            </p>
+            <p><input type="button" value="Verificar" onclick="interagir()"></p>
+
+        </div>
+        <div id="res">
+                Preencha os dados acima
+                
+        </div>
+
+    </section>
+
+    <footer id="rodape">
+        <p> Marcos Art&copy;</p>
+    </footer>
+    
+</body>
+</html>
